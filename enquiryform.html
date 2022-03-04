@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enquiry</title>
+    <link rel="stylesheet" href="enquiryform.css">
+    <link rel="icon" href="favicon (3).ico">
+   
+</head>
+
+<body>
+    <h2 style="margin: auto; width: 220px;"> ENQUIRE NOW </h2> <br>
+    <form action="mailto:kashishgupta2508@gmail.com" method="post" enctype="text/plain" style="margin: auto; width: 220px; border:3px; border-style:solid; border-color:black; padding: 50px; background-color: antiquewhite;">
+        <label for="" class="required">Parent's Name:</label><br><br>
+        <input type="text" id="Parent-name" name="Parent-name" style="height:30px;font-size:14pt; size:30" required > <br><br>
+        <label for="" class="required">Child's Name:</label><br><br>
+        <input type="text" id="Child-name" name="Child-name"  style="height:30px;font-size:14pt; size:30" required > <br><br>
+        <label for="" class="required">Email:</label><br><br>
+        <input type="email" id="Email"  NAME="Email" style="height:30px;font-size:14pt; size:30" required ><br><br>
+        <label for="" class="required">Phone Number:</label><br><br>
+        <input type="numbers" id="Phone number" NAME="Phone number" style="height:30px;font-size:14pt; size:30" required ><br><br>
+        <label for="" class="required"  >Select Program:</label><br><br>
+        <select name="program" id="programs"  style="height:30px;font-size:12pt; size:30" required >
+            <option value="default"  style="height:30px;font-size:10pt; size:30" >Select Your Option </option>
+            <option value="playschool"  style="height:30px;font-size:10pt; size:30" >PLAYGROUP</option>
+            <option value="nursery"  style="height:30px;font-size:10pt; size:30" >NURSERY</option>
+            <option value="summercamp"  style="height:30px;font-size:10pt; size:30" >SUMMER CAMP</option>
+            <option value="daycare"  style="height:30px;font-size:10pt; size:30" >DAY CARE</option>
+            <option value="kid'sactivityclub"  style="height:30px;font-size:10pt; size:30" >KID'S ACTIVITY CLUB</option>
+        </select><br><br>
+        <label for="" class="required"  >Select Location:</label><br><br>
+        <select name="location" id="location"  style="height:30px;font-size:10pt; size:30" required>
+            <option value="default"  style="height:30px;font-size:10pt; size:30" >Select Your Option </option>
+            <option value="morabadi"  style="height:30px;font-size:10pt; size:30" >MORABADI</option>
+            <option value="lalpur"  style="height:30px;font-size:10pt; size:30" >LALPUR</option>
+        </select><br><br>
+        <input class="sub" type="submit" value="SUBMIT MY ENQUIRY" style="height:30px;font-size:10pt; size:30" >
+    </form>
+</body>
+
+</html>

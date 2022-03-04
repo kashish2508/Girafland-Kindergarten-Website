@@ -1,0 +1,11 @@
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+  body{
+      align-items: center;
+  }
+  .sub:hover{
+      background: gray;
+  }
