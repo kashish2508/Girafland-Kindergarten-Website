@@ -1,0 +1,74 @@
+.mid-container{
+  padding-top: 110px;
+   height: 100%;
+   width: 100%;
+   background-image: url("images/bg.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#hh{ 
+    margin: 0 15px 0 15px;
+    padding: 175px 25px 25px 325px;
+    font-family: 'Sacramento', cursive;
+    /* font-size: 562.5%; */
+    color: white;
+    line-height: 0.5;
+    align-content: center;
+}
+#pp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0px 25px 25px 335px;
+    margin-top: 0;
+}
+.flex-container2{
+    display: flex;
+    /* position: fixed; */
+    position: absolute;
+    right: 100px;
+    bottom: 125px;
+    padding: 0 25px 25px 25px;
+    height: 110px;
+}
+.btn1 {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #D29D2B;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: solid #42C2FF 2px;
+    margin: 50px 50px 50px 50px;
+  }
+  
+  .btn1:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: black;
+  }
+  .btn2 {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #2c9ce4;
+    padding: 10px 20px 10px 20px;
+    border: solid #D29D2B 2px;
+    text-decoration: none;
+    margin: 50px;
+  }
+  
+  .btn2:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: black;
+  }

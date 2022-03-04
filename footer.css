@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    
+}
+.f1{
+    width: 250px;
+    margin-left: 20px;
+   }
+.f2{
+    width: 220px;
+    margin-left: 20px;
+}
+.f3{
+    width: 250px;
+    margin-left: 20px;
+}
+.f4{
+    width: 220px;
+    margin-left: 20px;
+}
+.f5{
+    width: 220px;
+    margin-left: 20px;
+}
+#log{
+
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+    border-radius: 3%;
+
+  }
+li{
+    color: aliceblue;
+}
+li:hover{
+ color: #B33030;
+}
